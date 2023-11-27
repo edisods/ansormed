@@ -198,8 +198,8 @@ body {
 }
 /* INDEX-SERVICES */
 .index-services {
-  padding-top: 120px;
-  margin-top: 120px;
+  padding-top: 80px;
+/*   margin-top: 120px; */
 }
 
 .index-services-heading {
