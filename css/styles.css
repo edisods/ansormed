@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -161,6 +165,18 @@ body {
   opacity: 0.6;
 }
 
+.main-link-outline {
+  border-color: #fff;
+  background-color: transparent;
+  color: #fff;
+}
+
+.main-link-outline:hover {
+  border-color: transparent;
+  background-color: #de2e54;
+  color: #fff;
+}
+
 
 /* SITE HERO */
 .hero {
@@ -260,6 +276,34 @@ body {
 .index-service-description {
   margin: 0;
   color: #444;
+}
+
+/* CTA */
+
+.cta {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background-color: #0eb4c1;
+  color: #fff;
+}
+
+.cta-heading {
+  margin-top: 0px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-family: "Open Sans Condensed", "Opern Sans", "Arial" sans-serif;
+  font-size: 36px;
+  line-height: 1.2;
+}
+
+.cta-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-links-item:not(:last-child) {
+  margin-right: 40px;
 }
 
 /* SITE FOOTER */
